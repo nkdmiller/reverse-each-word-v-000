@@ -6,7 +6,7 @@ def reverse_each_word(string)
   end
   reverse_string = ""
   reverse_array.each do |word|
-    reverse_string << word
+    reverse_string << "word "
   end
   return reverse_string
 end
