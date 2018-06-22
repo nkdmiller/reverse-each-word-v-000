@@ -8,5 +8,6 @@ def reverse_each_word(string)
   reverse_array.each do |word|
     reverse_string << "#{word} "
   end
+  reverse_string.chomp
   return reverse_string
 end
